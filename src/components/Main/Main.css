@@ -170,6 +170,27 @@
     animation: loader 3s infinite linear;
 }
 
+
+/* Main.css */
+
+.main.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.9rem;
+    margin-right: -29cm;
+    margin-top: -8.5px;
+    position:fixed;
+    left: 37.3cm;
+    top: 14.5px;
+  }
+  
+
 @keyframes loader{
     0%{
         background-position: -800px 0px;
